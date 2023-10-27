@@ -2478,12 +2478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2206417478320b42b3ae2e4d8dbcb89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPrefabs:
-  - {fileID: 1547786198}
-  - {fileID: 104990731}
-  - {fileID: 1651938667}
+  playerTransform: {fileID: 649855513}
   mapPrefabs:
-  - {fileID: 5492370100556664373, guid: 9b509b4546ffae243a87a264717b3b33, type: 3}
   - {fileID: 5492370100556664373, guid: 9b509b4546ffae243a87a264717b3b33, type: 3}
 --- !u!1 &1157790190
 GameObject:
@@ -3146,7 +3142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6637787753237959141, guid: c8c7da50d7f7f4848acddba5c63c30b9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6637787753237959142, guid: c8c7da50d7f7f4848acddba5c63c30b9, type: 3}
       propertyPath: Jump_S
