@@ -14,10 +14,10 @@ public class Map_Reposition : MonoBehaviour
 
     private void Update()
     {
-        if (PlayerPrefabs[PlayerPrefs.GetInt("Character")].transform.position.x > spawnX)//플레이어가 350을 가면 
+        if (PlayerPrefabs[PlayerPrefs.GetInt("Character")].transform.position.x > spawnX)//플레이어가 300을 가면 
         {
             SpawnMap();//맵스폰
-            spawnX += 300.0f;//계산식을 위해 350을 더해줌
+            spawnX += 300.0f;//계산식을 위해 300을 더해줌
         }
     }
 
