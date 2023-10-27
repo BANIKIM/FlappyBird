@@ -19,8 +19,8 @@ public class Player_Die : MonoBehaviour
             if (!player.isGiant && !player.isGodmode)
             {
                 Debug.Log(player.isGodmode);
-                Die();
-                gameObject.SetActive(false);//Player 비활성화
+             //   Die();
+              //  gameObject.SetActive(false);//Player 비활성화
             }
             //2023-10-25 박준영
             
@@ -34,8 +34,8 @@ public class Player_Die : MonoBehaviour
         {
             if (!player.isGiant && !player.isGodmode)
             {
-                Die();
-                gameObject.SetActive(false);//Player 비활성화
+            //    Die();
+              //  gameObject.SetActive(false);//Player 비활성화
             }
         }
     }
